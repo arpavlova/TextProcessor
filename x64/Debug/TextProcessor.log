@@ -1,0 +1,6 @@
+﻿  Alias.cpp
+C:\FMI\1stYear\OOP\MyProject\Project\Final\TextProcessor\TextProcessor\Alias.cpp(36,21): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  TextProcessor.cpp
+  Generating Code...
+C:\FMI\1stYear\OOP\MyProject\Project\Final\TextProcessor\TextProcessor\Alias.cpp(55): warning C4715: 'HashTableAlias::getElement': not all control paths return a value
+  TextProcessor.vcxproj -> C:\FMI\1stYear\OOP\MyProject\Project\Final\TextProcessor\x64\Debug\TextProcessor.exe

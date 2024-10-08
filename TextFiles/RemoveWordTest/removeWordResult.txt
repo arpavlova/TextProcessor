@@ -1,0 +1,7 @@
+1.CAT
+1 CAT 2
+2.CAT?
+!CAT
+CAT
+  Mycat 
+category

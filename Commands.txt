@@ -1,0 +1,60 @@
+
+
+
+-----------------------------------------------------------------------------------------------------------------------
+|open <name> - opens the file with path <name>
+|
+|save - saves the current file
+|
+|saveas <name> - saves the current file to the new path <name>
+|
+|replace <word1> <word>2 [opt: index1 index2] - replaces all occurrences of the <word1> with the <word2> in the file
+|                                             - optional parameters index1, index2 - the range of action
+|
+|remove <word> [opt: index1 index2] - removes all occurrences of word in the file
+|                                   - optional parameters index1, index2 - the range of action
+|
+|toupper [opt: index1 index2] - makes all the letters in the text upper case
+|                             - optional parameters index1, index2 - the range of action
+|
+|tolower [opt: index1 index2] - makes all the lettersin the text lower case
+|                             - optional parameters index1, index2 - the range of action
+|
+|removewhitespacesbeg [opt: index1 index2] - removes all the whites spaces at the beginning of each line
+|                                         - optional parameters index1, index2 - the range of action
+|
+|removewhitespacesend [opt: index1 index2] - removes all the whites spaces at the end of each line
+|                                         - optional parameters index1, index2 - the range of action
+|
+|sort [opt: index1 index2] - sorts all the lines
+|                          - optional parameters index1, index2 - the range of action
+|
+|shuffle [opt: index1 index2] - shuffles all the lines
+|                             - optional parameters index1, index2 - the range of action
+|
+|removeduplicates [opt: index1 index2] - removes all duplicate lines
+|                                      - optional parameters index1, index2 - the range of action
+|
+|undo - undo the last operation if it is unsaved
+|
+|print - prints the file content in the standard output
+|
+|center <centerpoint> - prints the file content in the standard output centered
+|
+|switchfile <filename> - switches the current file being updated
+|
+|wrap <columnscount> - prints the content of the file aligned to the columns count
+|
+|removeline <index> - removes the line in the specified index
+|
+|addline <index> <line> - adds the new line in the specified index
+|
+|replaceline <index> <newline> - replaces the line in the specified index with newline
+|
+|filesinfo - prints all information about the currently opened files
+|
+|close <name> - the file with path <name> will be excluded from updated files
+|
+|exit - exits the program
+----------------------------------------------------------------------------------------------------------------------
+
